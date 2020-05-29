@@ -73,7 +73,7 @@
   padding-bottom: 1.5em;
 }
 
-.info:not(:last-of-type){
+.info:not(:last-of-type) {
   border-bottom: solid 1px lightgrey;
 }
 
@@ -105,8 +105,12 @@
 }
 
 @keyframes loadWidth {
-  from {width: 0;}
-  to {width: 50%;}
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
 }
 
 /* ============================= */
@@ -156,7 +160,7 @@
 
 /* ============================= */
 .shadow {
-  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* ============================= */

@@ -1,0 +1,62 @@
+:root {
+  font-family: arial, sans-serif;
+}
+/* ================================= */
+body {
+  max-width: 1120px;
+  margin: auto;
+}
+
+h2 {
+  margin-top: 2em;
+  text-align: center;
+}
+/* ================================= */
+#personal-list {
+  margin-top: 1em;
+  display: flex;
+}
+
+#personal-list p {
+  margin: 0;
+}
+
+#personal-list img {
+  margin-left: 2em;
+  margin-right: 5em;
+  width: 150px;
+  height: 150px;
+}
+
+.right-column {
+  margin-block-start: 1em;
+  margin-left: 1em;
+}
+/* ================================= */
+section > h3 {
+  background-color: lightgrey;
+  text-align: center;
+}
+
+section > *:not(h3) {
+  width: 95%;
+  margin: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* ================================= */
+
+#project-list > p {
+  margin-top: 2em;
+}
